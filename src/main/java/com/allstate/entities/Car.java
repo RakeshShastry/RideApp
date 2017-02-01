@@ -27,7 +27,7 @@ public class Car {
     private Date modified;
     private Driver driver;
 //    private List<Trip> trips;
-
+    
     @Id
     @GeneratedValue
     public int getId() {return id;}
